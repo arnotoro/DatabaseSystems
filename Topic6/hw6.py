@@ -6,7 +6,7 @@ db = sqlite3.connect('hw5tennis.db')
 cur = db.cursor()
 def initializeDB():
     try:
-        f = open("sqlcommands.sql", "r")
+        f = open("SQLqueries.sql", "r")
         commandstring = ""
         for line in f.readlines():
             commandstring+=line

@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "testdatabase",
+            "database": "${workspaceFolder:FINAL DB PROJECT}/PythonDBProgram/ERP1.sqlite3"
+        }
+    ]
+}
